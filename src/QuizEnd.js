@@ -9,7 +9,7 @@ class QuizEnd extends Component {
       <div>
         <p>Thanks for playing!</p>
         <a href='' onClick={this.handleResetClick.bind(this)}>Reset Quiz</a>
-      </div>      
+      </div>
     )
   }
 }
