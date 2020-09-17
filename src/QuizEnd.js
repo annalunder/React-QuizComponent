@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
-class QuizQuestionButton extends Component {
+class QuizEnd extends Component {
   render() {
     return (
-      <li>
-        <button>{this.props.button_text}</button>
-      </li>
+      <div>
+        <p>Thanks for playing!</p>
+        <a href=''>Reset Quiz</a>
+      </div>      
     )
   }
 }
 
-export default QuizQuestionButton
+export default QuizEnd
